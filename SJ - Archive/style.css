@@ -1,0 +1,86 @@
+body{
+	background-color:grey;
+	font-size:14px;
+
+}
+
+#main{
+	background-color: darkred;
+	margin-right:0px;
+	margin-left:0px;
+	height:60px;
+	color:white;
+	padding:5px;
+	font-size:200%;
+	position: relative;
+	top:50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	
+}
+
+#navigation{
+	display:inline;
+	text-align:center;
+	background-color:darkred;
+	height:30px;
+	border-top:solid;
+}
+
+.sub-main{
+	background-color: #83b9a4;
+	margin-top:1px ;
+	margin-right:5px auto;
+	margin-left:5px auto;
+	height:500px;
+	background:url("coffee.jpg");
+}
+
+#footer{
+	
+	color:white;
+	height:35px;
+	margin-top:5px;
+	clear:left;
+	border-radius:2%;
+	padding:1px;
+	background-color:darkred;
+	border:solid;
+	border-width:1px;
+	clear:both;	
+	text-align:center;
+}
+li{
+	list-style-type: none;
+	display:inline;
+	
+}
+/*.sidebar li{
+	list-style-type:none;
+}*/
+
+#content{
+	background-color:white;
+	padding:5px;
+	color:darkred;
+	text-align:justify;
+	border:solid;
+	border-width:1px 0px 1px 0px;
+	border-color:grey;
+}
+h1{
+	font-size:180%;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-align:center;
+}
+#pic1{
+	height:auto;
+}
+#pic2{
+	height:auto;	
+}
+
+p{
+	text-align:center;
+	font-family:Arial;
+}
